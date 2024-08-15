@@ -1,0 +1,38 @@
+input[type="range"] {
+    -webkit-appearance: none; /* Removes default styling */
+    width: 100%; /* Adjust width as needed */
+    height: 8px; /* Adjust height as needed */
+    background: #FD6F00; /* Background color of the slider bar */
+    border-radius: 5px; /* Rounded corners */
+    outline: none; /* Removes outline when focused */
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Removes default styling */
+    appearance: none;
+    width: 20px; /* Adjust width of the thumb */
+    height: 20px; /* Adjust height of the thumb */
+    background: #FD6F00; /* Color of the thumb */
+    border-radius: 50%; /* Makes the thumb circular */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); /* Optional shadow for the thumb */
+  }
+  
+  input[type="range"]::-moz-range-thumb {
+    width: 20px; /* Adjust width of the thumb */
+    height: 20px; /* Adjust height of the thumb */
+    background: #FD6F00; /* Color of the thumb */
+    border-radius: 50%; /* Makes the thumb circular */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); /* Optional shadow for the thumb */
+  }
+  
+  input[type="range"]::-ms-thumb {
+    width: 20px; /* Adjust width of the thumb */
+    height: 20px; /* Adjust height of the thumb */
+    background: #FD6F00; /* Color of the thumb */
+    border-radius: 50%; /* Makes the thumb circular */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); /* Optional shadow for the thumb */
+  }
+  
