@@ -1,4 +1,4 @@
-# Portfolio landing page
+# Portfolio landing page - https://portfolio-assignment-mugs.vercel.app/
 
 This is a Next.js project designed to showcase my portfolio, including sections like About Me, Services, Testimonials, and Contact. Below are the instructions to set up and run this project locally.
 
@@ -19,7 +19,7 @@ To get a local copy up and running, follow these steps:
 
 ### 2. Install Dependencies
     
-        npm install
+    npm install
 
 ### 3. Run the Development Server
    Start the development server by running:
