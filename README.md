@@ -15,14 +15,13 @@ To get a local copy up and running, follow these steps:
 
 ### 1. Clone the Repository
 
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/Anky9972/portfolio-assignment-MUGS-
 
 ### 2. Install Dependencies
-    ```bash
+    
         npm install
 
 ### 3. Run the Development Server
    Start the development server by running:
- ```bash
+   ```bash
     npm run dev
