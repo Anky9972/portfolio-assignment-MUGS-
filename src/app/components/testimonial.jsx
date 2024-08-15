@@ -17,7 +17,6 @@ const Testimonial = () => {
       <div className="mt-10 w-full mx-auto">
         <div className="w-full relative flex justify-center items-center">
           <div className="flex items-center xl:space-x-10">
-            {/* Left faded testimonial */}
             <div className="opacity-30 transform scale-75 hidden xl:block">
               <div className="text-left flex items-center gap-10">
                 <div className="flex flex-col items-center">
@@ -28,7 +27,6 @@ const Testimonial = () => {
               </div>
             </div>
 
-            {/* Active testimonial */}
             <div className="bg-[#f8f8f8] w-full xl:w-4/5 p-6 rounded-lg">
               <div className="text-left gap-10 flex flex-col md:flex-row items-center">
                 <Image
@@ -48,7 +46,6 @@ const Testimonial = () => {
               </div>
             </div>
 
-            {/* Right faded testimonial */}
             <div className="opacity-30 transform scale-75 hidden xl:block">
               <div className="text-left flex items-center gap-10">
                 <Image
@@ -69,7 +66,6 @@ const Testimonial = () => {
           </div>
         </div>
 
-        {/* Dots for navigation */}
         <div className="mt-8 flex justify-center space-x-2">
           <span className="w-10 h-4 bg-gray-300 rounded-full"></span>
           <span className="w-10 h-4 bg-orange-500 rounded-full"></span>
